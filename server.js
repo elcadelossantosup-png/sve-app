@@ -35,3 +35,5 @@ mongoose
     );
   })
   .catch((err) => console.error('Mongo connection error:', err.message));
+
+  module.exports = app;
